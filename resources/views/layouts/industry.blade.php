@@ -62,8 +62,8 @@
 							<ul class="nav-menu">
 								<li class="menu-active"><a href="#">Home</a></li>
 								<li><a href="#">About</a></li>
-								<li><a href="#">Service</a></li>
-								<li><a href="">Portofolio</a></li>
+								<li><a href="{{url('/service')}}">Service</a></li>
+								<li><a href="{{url('/portofolio')}}">Portofolio</a></li>
 								<li class="menu-has-children"><a href="">Blog</a>
 									<ul>
 										<li><a href="#">Blog Home</a></li>
